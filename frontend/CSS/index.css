@@ -62,6 +62,59 @@ body {
     height: 500px;
     object-fit: cover;
 }
+.category-image-placeholder {
+    border: 2px dashed #ccc;
+    border-radius: 16px;
+}
+
+#collaborate-section {
+    /* A subtle background color to separate it */
+    background-color: #f8f9fa;
+}
+
+.collaborate-image-placeholder img {
+    /* Give the image a nice shadow */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+/* Sign Up Section Styling */
+.signup-section {
+    /* Use a high-quality, dark background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/home_page/background1.avif');
+    background-size: cover;
+    background-position: center;
+    min-height: 800px; /* Adjust as needed */
+    padding: 60px 0;
+}
+
+.signup-form {
+    /* Ensure the form stands out from the dark background */
+    border-radius: 24px;
+}
+
+/* Custom styling for form inputs */
+.form-control-lg {
+    font-size: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* Style for the 'OR' divider */
+.signup-form .text-muted.fw-bold {
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .signup-section {
+        min-height: auto;
+        text-align: center;
+    }
+    .signup-section h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+}
 
 /* Responsive adjustments for mobile screens */
 @media (max-width: 768px) {
