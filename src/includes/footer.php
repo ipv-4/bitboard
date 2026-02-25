@@ -2,7 +2,7 @@
 <?php if (!isset($extra_js)) {
     $extra_js = null;
 } ?>
-<script src="assets/css/bootstrap.min.css"></script>
+<script src="assets/js/bootstrap.min.js"></script>
 
 <?php if (isset($extra_js)) {
     if (is_array($extra_js)) {
