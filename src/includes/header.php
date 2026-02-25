@@ -7,7 +7,7 @@
     <title><?php echo isset($page_title) ? $page_title : 'Mini Pinterest'; ?></title>
     <link rel="stylesheet" href="assets/CSS/bootstrap.css">
     <link rel="stylesheet" href="assets/CSS/index.css">
-    <?php 
+    <?php
     if (isset($extra_css)) {
 
         if (is_array($extra_css)) {
