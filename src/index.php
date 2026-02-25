@@ -1,3 +1,7 @@
+<?php
+require_once 'includes/config.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <?php
@@ -10,8 +14,9 @@ include "includes/head.php";
 <body>
 
 <?php
-include "includes/header.php"
+include "includes/header.php";
 ?>
+
  <section class="hero-section container my-5">
         <div class="row align-items-center">
             <div class="col-lg-6 hero-text pe-lg-5">
