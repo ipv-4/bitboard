@@ -4,7 +4,7 @@
     <div class="container">
 
         <!-- Top row: brand + columns -->
-        <div class="row gy-5 pb-5 border-bottom border-secondary-subtle">
+        <div class="row gy-5 py-5 border-bottom border-secondary-subtle">
 
             <!-- Brand -->
             <div class="col-lg-4">
