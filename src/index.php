@@ -1,9 +1,13 @@
+
+<!DOCTYPE html>
+<html lang="en">
 <?php
 $page_title = "Home - Bitboard";
-$extra_css = ["bootstrap.css", "index.css"];
-$extra_js = ["script.js", "bootstrap.js"];
+$extra_css = ["index.css"];
+$extra_js = ["script.js"];
 include "includes/header.php";
 ?>
+<body>
  <section class="hero-section container my-5">
         <div class="row align-items-center">
             <div class="col-lg-6 hero-text pe-lg-5">
@@ -115,8 +119,6 @@ include "includes/header.php";
             </div>
         </div>
     </section>
-
-    
+<?php include "includes/footer.php"; ?>
 </body>
 </html>
-<?php include "includes/footer.php"; ?>

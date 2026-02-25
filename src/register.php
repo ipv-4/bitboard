@@ -51,7 +51,7 @@ include "includes/header.php";
             </form>
         </div>
     </div>
-    <script src="JS/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
 
