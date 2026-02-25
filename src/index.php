@@ -6,6 +6,7 @@ $extra_css = [];
 $extra_js = ["script.js"];
 include "includes/head.php";
 ?>
+
 <body>
 
 <?php

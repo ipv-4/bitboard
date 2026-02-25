@@ -1,5 +1,5 @@
 
-<?php  ?>
+<?php ?>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
     <div class="container-fluid">
