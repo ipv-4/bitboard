@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title><?php echo isset($page_title) ? $page_title : 'Mini Pinterest'; ?></title>
+    <title><?php echo isset($page_title)
+        ? $page_title
+        : "Mini Pinterest"; ?></title>
     <link rel="stylesheet" href="assets/CSS/bootstrap.css">
     <link rel="stylesheet" href="assets/CSS/index.css">
-    <?php
-    if (isset($extra_css)) {
-
+    <?php if (isset($extra_css)) {
         if (is_array($extra_css)) {
             foreach ($extra_css as $css_file) {
-                echo '<link rel="stylesheet" href="assets/CSS/' . $css_file . '">' . "\n";
+                echo '<link rel="stylesheet" href="assets/CSS/' .
+                    $css_file .
+                    '">' .
+                    "\n";
             }
         } else {
-            echo '<link rel="stylesheet" href="assets/CSS/' . $extra_css . '">' . "\n";
+            echo '<link rel="stylesheet" href="assets/CSS/' .
+                $extra_css .
+                '">' .
+                "\n";
         }
-    }
-    ?>
+    } ?>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">

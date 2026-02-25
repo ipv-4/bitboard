@@ -1,7 +1,7 @@
 <?php
 $page_title = "Log In - Bitboard";
 $extra_css = ["bootstrap.css", "login.css"];
-include 'includes/header.php';
+include "includes/header.php";
 ?>
     
 </head>

@@ -1,7 +1,7 @@
 <?php
 $page_title = "Sign Up - Bitboard";
 $extra_css = ["bootstrap.css", "signup.css"];
-include 'includes/header.php';
+include "includes/header.php";
 ?>
 
 <body>

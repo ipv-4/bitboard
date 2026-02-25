@@ -2,12 +2,10 @@
 $page_title = "Home - Bitboard";
 $extra_css = ["bootstrap.css", "index.css"];
 $extra_js = ["script.js", "bootstrap.js"];
-include 'includes/header.php';
-
+include "includes/header.php";
 ?>
  <section class="hero-section container my-5">
         <div class="row align-items-center">
-            
             <div class="col-lg-6 hero-text pe-lg-5">
                 <h1>Get your next <br> <span class="dynamic-text" id="changing-text">artistic idea</span></h1>
                 <p class="lead mt-4 mb-4">Join our community of artists to share, discover, and get inspired.</p>
@@ -121,4 +119,4 @@ include 'includes/header.php';
     
 </body>
 </html>
-<?php include 'includes/footer.php'; ?>
+<?php include "includes/footer.php"; ?>
