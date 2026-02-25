@@ -3,6 +3,12 @@ services:
     build:
       context: .
       dockerfile: docker/php/Dockerfile
+    environment:
+      - DB_HOST=${DB_HOST}
+      - DB_PORT=${DB_PORT}
+      - DB_NAME=${DB_NAME}
+      - DB_USERNAME=${DB_USERNAME}
+      - DB_PASSWORD=${DB_PASSWORD}
     volumes:
       - ./src:/var/www/html
       - ./docker/php/php.ini:/usr/local/etc/php/conf.d/custom.ini
@@ -21,8 +27,8 @@ services:
   db:
     image: mysql:8.0
     environment:
-      MYSQL_DATABASE: bitboard_db
-      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
     ports:
       - "3306:3306"
     volumes:
