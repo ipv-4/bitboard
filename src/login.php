@@ -1,11 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
 
 <?php
 $page_title = "Log In - Bitboard";
-$extra_css = ["bootstrap.css", "login.css"];
-include "includes/header.php";
+$extra_css = ["login.css"];
+include "includes/head.php";
 ?>
 
 <body>
+<?php
+include "includes/header.php"
+?>
     <div class="auth-page-container">
         <div class="auth-card text-center">
             <div class="text-danger fw-bold fs-3 mb-3">Logo</div>
@@ -37,6 +42,7 @@ include "includes/header.php";
             </form>
         </div>
     </div>
-    <script src="js/bootstrap.js"></script>
+
+<?php include "includes/footer.php"; ?>
 </body>
 </html>

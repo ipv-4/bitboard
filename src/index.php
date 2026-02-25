@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <?php
 $page_title = "Home - Bitboard";
-$extra_css = ["index.css"];
+$extra_css = [];
 $extra_js = ["script.js"];
 include "includes/head.php";
 ?>

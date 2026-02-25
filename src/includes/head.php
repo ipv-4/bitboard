@@ -12,6 +12,7 @@
         ? $page_title
         : "Mini Pinterest"; ?></title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
     <?php if (isset($extra_css)) {
         if (is_array($extra_css)) {
             foreach ($extra_css as $css_file) {
