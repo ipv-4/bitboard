@@ -1,0 +1,121 @@
+/* ── Shared utilities ────────────────────────────────────── */
+.py-6 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section-label {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #e60023;
+  margin-bottom: 0.5rem;
+}
+
+.letter-spacing {
+  letter-spacing: 0.12em;
+}
+
+/* ── Page hero (shared between About & Business) ─────────── */
+.page-hero {
+  min-height: 480px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.68)),
+    url("../images/home_page/background1.avif");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+}
+
+/* ── About — value cards ─────────────────────────────────── */
+.value-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1) !important;
+}
+
+.value-icon {
+  font-size: 2rem;
+}
+
+/* ── About — CTA band ────────────────────────────────────── */
+.page-cta {
+  background-color: #e60023;
+}
+
+/* ── Business — stat cards ───────────────────────────────── */
+.stat-card {
+  transition: transform 0.2s;
+}
+
+.stat-card:hover {
+  transform: translateY(-3px);
+}
+
+.stat-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #e60023;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;
+}
+
+/* ── Business — offering cards ───────────────────────────── */
+.offer-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-color: #e8e8e8 !important;
+}
+
+.offer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  border-color: #e60023 !important;
+}
+
+.offer-icon {
+  font-size: 1.8rem;
+}
+
+/* ── Business — pricing cards ────────────────────────────── */
+.pricing-card {
+  transition: transform 0.2s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-4px);
+}
+
+.pricing-card--featured {
+  background-color: #e60023;
+}
+
+.pricing-number {
+  font-size: 2.4rem;
+  line-height: 1;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 768px) {
+  .page-hero {
+    min-height: 360px;
+    padding: 60px 0;
+  }
+
+  .page-hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .py-6 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
