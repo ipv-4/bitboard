@@ -1,0 +1,128 @@
+/* Custom styling to give it a Pinterest-like feel */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, "ãƒ’ãƒ©ã‚®ãƒŽè§’ã‚´ Pro W3", "Hiragino Kaku Gothic Pro", ãƒ¡ã‚¤ãƒªã‚ª, Meiryo, "ï¼­ï¼³ ï¼°ã‚´ã‚·ãƒƒã‚¯", Arial, sans-serif;
+}
+
+.navbar {
+    padding: 15px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+.btn-brand {
+    background-color: #E60023; /* Pinterest Red */
+    color: white;
+    border-radius: 24px;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-brand:hover {
+    background-color: #ad081b;
+    color: white;
+}
+
+.btn-secondary-custom {
+    background-color: #efefef;
+    color: #111;
+    border-radius: 24px;
+    padding: 10px 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #e2e2e2;
+}
+
+.hero-section {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-text h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.dynamic-text {
+    color: #c28b00; /* A contrasting color for the changing text */
+    transition: opacity 0.5s ease-in-out; /* Smooth fade for future JS animation */
+}
+
+/* Carousel placeholder images styling */
+.carousel-inner {
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.category-image-placeholder {
+    border: 2px dashed #ccc;
+    border-radius: 16px;
+}
+
+#collaborate-section {
+    /* A subtle background color to separate it */
+    background-color: #f8f9fa;
+}
+
+.collaborate-image-placeholder img {
+    /* Give the image a nice shadow */
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+
+/* Sign Up Section Styling */
+.signup-section {
+    /* Use a high-quality, dark background image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)), url('../images/home_page/background1.avif');
+    background-size: cover;
+    background-position: center;
+    min-height: 800px; /* Adjust as needed */
+    padding: 60px 0;
+}
+
+.signup-form {
+    /* Ensure the form stands out from the dark background */
+    border-radius: 24px;
+}
+
+/* Custom styling for form inputs */
+.form-control-lg {
+    font-size: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+/* Style for the 'OR' divider */
+.signup-form .text-muted.fw-bold {
+    font-size: 0.9rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .signup-section {
+        min-height: auto;
+        text-align: center;
+    }
+    .signup-section h1 {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 2.5rem;
+    }
+    .hero-text {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+}
